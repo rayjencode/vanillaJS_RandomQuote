@@ -1,0 +1,45 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffd0a8;
+    color: #333;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.container {
+    text-align: center;
+    border-radius: 2rem;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 2rem;
+    flex: 0 0 80%;
+}
+
+button {
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #333;
+    color: #fff;
+}
+button:hover {
+    background: #7529d8;
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ffd0a8;
+    margin: 1rem;
+    padding: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 1.2rem; */
+}
+
+#quoteAuthor {
+    color: #ffd000;
+}
